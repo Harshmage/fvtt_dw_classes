@@ -1,0 +1,1880 @@
+{
+  "package": "world.the-witch",
+  "metadata": {
+    "name": "the-witch",
+    "label": "The Witch",
+    "path": "worlds/pirates/packs/the-witch.db",
+    "private": false,
+    "type": "Item",
+    "system": "dungeonworld",
+    "flags": {},
+    "packageType": "world",
+    "packageName": "pirates",
+    "id": "world.the-witch"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_la9ysbss69",
+          "name": "Starting Moves",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "1F3TkxgunOQXCr36",
+            "M81hFVL46G7CJwVC",
+            "zpqpTkUd0fQKs5lY",
+            "f1omCSNrvwBdxBHU"
+          ],
+          "children": [],
+          "folderPath": [
+            "temp_5cu3m5dt829"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449503188,
+        "modifiedTime": 1665449629246,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "0SQQp1Tngorsmbi5"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_xgxvfl8ddg",
+          "name": "Advanced Moves L2-L5",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "s9aijydRY8G2Rscw",
+            "2g8m7A5hSGivDdZx",
+            "JUm682J0p55opzGc",
+            "YpMaQxYydGSI0Bg5",
+            "VEdtsjltmbZS12wd",
+            "ujbEc6Ayuyp2GZdQ",
+            "TvqhKE5qJ2e5H2ov",
+            "4wUziKFR8QA3bint",
+            "1zgEWnyVaqxr0u8E",
+            "AMksNNBuR7mGiYCU"
+          ],
+          "children": [],
+          "folderPath": [
+            "temp_5cu3m5dt829"
+          ]
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449737605,
+        "modifiedTime": 1665449760821,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "2XzgXlaCdirE9tBP"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_0fwdmgiendj",
+          "name": "Starting Gear",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "QW0eYITU3QNUupUq",
+            "JUE94sgeyY5fszRG"
+          ],
+          "children": [],
+          "folderPath": [
+            "temp_5cu3m5dt829"
+          ]
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449629073,
+        "modifiedTime": 1665449636959,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "cFBsYNczwQnMxvQr"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9",
+          "name": "Advanced Moves L6-L10",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "CbyGTfO9A9HhELp9",
+            "z9U1LtSlpWCf8sWL",
+            "YdYhH1icnxXt5Ube",
+            "Y2AOShhop8l3taTI",
+            "PwEHvBxyPhahnyOa",
+            "mTgQ2zYMYNCiPWkU",
+            "CVfWqpFqIlp8advR",
+            "1SJ9zYSAiPd0jRxz",
+            "TkbnEAs27XKXMWXR",
+            "3zOKuxQJIOhDZUCW"
+          ],
+          "children": [],
+          "folderPath": [
+            "temp_5cu3m5dt829"
+          ]
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449698369,
+        "modifiedTime": 1665449720215,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "dAtatZHxKaS9NaaE"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_5cu3m5dt829",
+          "name": "The Witch",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "tldODE2wkBTaoHKk"
+          ],
+          "children": [
+            "temp_la9ysbss69",
+            "temp_xgxvfl8ddg",
+            "temp_0fwdmgiendj",
+            "temp_cbzi5c61rm9",
+            "temp_smsmqgo6jtb"
+          ],
+          "folderPath": [],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449453384,
+        "modifiedTime": 1665449738041,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "m0iCBLiVuG9Qbof3"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb",
+          "name": "Starting Choice Gear",
+          "color": "#000000",
+          "fontColor": "#FFFFFF",
+          "icon": "",
+          "sorting": "m",
+          "contents": [
+            "IQIZzQF5rYNpg0P1",
+            "DGPbpV9G68JrJG7c",
+            "0uwoxVIUYBs7GSFY",
+            "9Y0jOqLSLuwyGei6",
+            "MoxvnhIEr7OVkaiG",
+            "ZL2iLIhonSajf0Ik",
+            "cCdbioUkJ2uXgJuQ"
+          ],
+          "children": [],
+          "folderPath": [
+            "temp_5cu3m5dt829"
+          ]
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665449664073,
+        "modifiedTime": 1665449680916,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "zWPZZvgEBmmbrSmD"
+    },
+    {
+      "name": "A Potion",
+      "type": "equipment",
+      "img": "icons/consumables/potions/flask-corked-red-glow.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 1,
+        "tags": [],
+        "tagsString": "",
+        "magic": true,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485428004,
+        "modifiedTime": 1665449674670,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "0uwoxVIUYBs7GSFY"
+    },
+    {
+      "name": "Alternative Medicine",
+      "type": "move",
+      "img": "icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you make camp, one creature regains +1d6 hit points and takes +1 forward the following day.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663529121528,
+        "modifiedTime": 1665449750625,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "YpMaQxYydGSI0Bg5"
+    },
+    {
+      "name": "Apothecary",
+      "type": "move",
+      "img": "icons/tools/cooking/mortar-herbs-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you have time to gather materials and a safe place to work, make any combination of three of the following items for free:</p>\n<ul>\n<li>Healing Salve (3 uses, 0 weight)</li>\n<li>A vial of Antitoxin (1 use, 0 weight)</li>\n<li>Herbs and Poultices (2 uses, slow, 1 weight)</li>\n</ul>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_la9ysbss69"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663528417721,
+        "modifiedTime": 1665449512034,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1F3TkxgunOQXCr36"
+    },
+    {
+      "name": "Athame",
+      "type": "equipment",
+      "img": "icons/weapons/daggers/dagger-bone-worn-black.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"hand\"},{\"value\":\"precise\"},{\"value\":\"1 piercing\"}]",
+        "tagsString": "hand, precise, 1 piercing",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663484996575,
+        "modifiedTime": 1665449679198,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "ZL2iLIhonSajf0Ik"
+    },
+    {
+      "name": "Aurspicina",
+      "type": "move",
+      "img": "icons/commodities/biological/tentacle-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you study the entrails of a recently slain creature, take +1 forward to use Divination.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.VvTrFYT3A1FaJVD6"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663529714682,
+        "modifiedTime": 1665449745345,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "s9aijydRY8G2Rscw"
+    },
+    {
+      "name": "Blinding Sleet",
+      "type": "move",
+      "img": "icons/magic/air/weather-clouds-snow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you stirm up a storm, spend 1 storm to blind enemies in the area for a few moments.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Weather-Worker",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663560212292,
+        "modifiedTime": 1665449716533,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1SJ9zYSAiPd0jRxz"
+    },
+    {
+      "name": "Blood Magic",
+      "type": "move",
+      "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you have a creature's blood, take +1 forward to work your magic on them. If you mark a debility when using thaumaturgy, choose one:</p>\n<ul>\n<li>It will require less.</li>\n<li>It will not take as long.</li>\n<li>The effects will last longer, or be more powerful than expected.</li>\n</ul>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.af4UGMp7IPNZwqK2"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663529853963,
+        "modifiedTime": 1665449747441,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "2g8m7A5hSGivDdZx"
+    },
+    {
+      "name": "Brewmaster",
+      "type": "move",
+      "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you brew a potion, the effects of it are enhanced in some way - the GM will tell you how.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Herbalism",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663560320363,
+        "modifiedTime": 1665449704389,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "CbyGTfO9A9HhELp9"
+    },
+    {
+      "name": "Divination",
+      "type": "move",
+      "img": "icons/magic/perception/hand-eye-fire-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you spend a few minutes performing a divination, describe what it looks like, ask the GM a question, and roll.</p>\n<ul>\n<li>+1 if you only want a yes or no response</li>\n<li>+1 if you have an object belonging to the person, place, or thing.</li>\n</ul>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>Answer cloudy, try again later.</p>"
+          },
+          "partial": {
+            "value": "<p>The GM will answer your question, and you take +1 forward when acting on the answer.</p>"
+          },
+          "success": {
+            "value": "<p>You can ask a followup question.</p>"
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_la9ysbss69"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663486693612,
+        "modifiedTime": 1665449510461,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "M81hFVL46G7CJwVC"
+    },
+    {
+      "name": "Evil Eye",
+      "type": "move",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You can use your hex on any creature you can see.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663560596305,
+        "modifiedTime": 1665449705983,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "z9U1LtSlpWCf8sWL"
+    },
+    {
+      "name": "Familiar",
+      "type": "move",
+      "img": "icons/creatures/birds/corvid-call-sound-glowing.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You have a familiar that provides you with advice and information. Describe what it looks like, its personality, and how you got it. When you spout lore take +1, and on a miss your familiar will seek out the answer in exchange for some of your blood: take 1d4 damage, ignoring armor. If your familiar dies, you can summon, craft, or bind a new one using thaumaturgy.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.yZFg8GwGqI6VUwNr"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663530158055,
+        "modifiedTime": 1665449749027,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "JUm682J0p55opzGc"
+    },
+    {
+      "name": "Formsculpting Hex",
+      "type": "move",
+      "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you use your hex on a living creature, you can transform it into an animal that is man-sized or smaller. While a creature is transformed by your curse, you take -1 ongoing when working your magic.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Skinchanger",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663560658307,
+        "modifiedTime": 1665449707549,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "YdYhH1icnxXt5Ube"
+    },
+    {
+      "name": "Gnarled, Crystal-topped Staff",
+      "type": "equipment",
+      "img": "icons/weapons/staves/staff-forest-jewel.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"illuminating\"},{\"value\":\"close\"},{\"value\":\"two-handed\"}]",
+        "tagsString": "illuminating, close, two-handed",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663484903982,
+        "modifiedTime": 1665449677722,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "MoxvnhIEr7OVkaiG"
+    },
+    {
+      "name": "Grimoire",
+      "type": "equipment",
+      "img": "icons/sundries/books/book-tooled-eye-gold-red.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_0fwdmgiendj"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485685139,
+        "modifiedTime": 1665449633690,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "QW0eYITU3QNUupUq"
+    },
+    {
+      "name": "Harmful Hex",
+      "type": "move",
+      "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you utter a curse upon a living creature, if it afflicts them with agony in some manner you can also deal your damage to them, ignoring armor.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.UfWiGQ3q4bcEZlht"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663558698188,
+        "modifiedTime": 1665449753981,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "ujbEc6Ayuyp2GZdQ"
+    },
+    {
+      "name": "Herbalism",
+      "type": "move",
+      "img": "icons/consumables/plants/herb-tied-bundle-yellow-green.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you undertake a perilous journey through the wilderness, the next time you make camp you can use the apothecary move.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.dtCIchQf6yxSj88S"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663558802755,
+        "modifiedTime": 1665449752213,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "VEdtsjltmbZS12wd"
+    },
+    {
+      "name": "Hex",
+      "type": "move",
+      "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You utter a curse upon a nearby living creature.</p>\n<p>&nbsp;</p>\n<p><em>Example Curses</em>: An inability to speak (or make only animal noises), cause their hair to fall out, their face to become monstrous or bestial in appearance, randomly vomit forth vermin, cover them in boils, make them grow an animal's tail, or cause animals in their presence to panic, flee, or attack them.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>Choose 1:</p>\n<ul>\n<li>You or an ally suffers the effects of the curse in some way - the GM will tell you who and how.</li>\n<li>It ends when you curse someone else.</li>\n<li>It can be ended by fulfilling a fairly easy condition - tell them what they must do.</li>\n</ul>"
+          },
+          "success": {
+            "value": "<p>You afflict them with a curse until the next sunrise.</p>"
+          }
+        },
+        "class": "The Witch",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_la9ysbss69"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663487137580,
+        "modifiedTime": 1665449508886,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "zpqpTkUd0fQKs5lY"
+    },
+    {
+      "name": "Killing Curse",
+      "type": "move",
+      "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you utter a curse upon a living creature, on a 12+ you can choose to have the target take +1d4 damage from each attack and be unable to heal until the sun rises.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Harmful Hex",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663560802623,
+        "modifiedTime": 1665449709671,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Y2AOShhop8l3taTI"
+    },
+    {
+      "name": "Moment of Foresight",
+      "type": "move",
+      "img": "icons/magic/time/day-night-sun-moon.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Signs of fate and destiny are everywhere. When you <strong>discern realities</strong>, on a 10+ you can instead ask the GM any one question you wish.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663561149932,
+        "modifiedTime": 1665449711471,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "PwEHvBxyPhahnyOa"
+    },
+    {
+      "name": "Necromancy",
+      "type": "move",
+      "img": "icons/commodities/bones/skull-hollow-orange.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You consult the spirits of the dead.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>The spirit will answer 1 question for you about something they know or the immediate area, but it will seek to do you harm later.</p>"
+          },
+          "partial": {
+            "value": "<p>The spirit will answer 2 questions for you about something they know or the immediate area.</p>"
+          },
+          "success": {
+            "value": "<p>The spirit will answer 3 questions for you about something they know or the immediate area.</p>"
+          }
+        },
+        "class": "The Witch",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.uqu2o3awK234U8Uo"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663559043063,
+        "modifiedTime": 1665449755928,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "TvqhKE5qJ2e5H2ov"
+    },
+    {
+      "name": "Pair of Wax Poppets",
+      "type": "equipment",
+      "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 2,
+        "tags": "[{\"value\":\"near\"}]",
+        "tagsString": "near",
+        "magic": true,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485309116,
+        "modifiedTime": 1665449676289,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "9Y0jOqLSLuwyGei6"
+    },
+    {
+      "name": "Poppet Master",
+      "type": "move",
+      "img": "icons/magic/control/voodoo-doll-pain-damage-pink.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you use a poppet, it gains the far tag and you deal +1d6 damage.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.6T6nExwbnDrsLld0"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663559285006,
+        "modifiedTime": 1665449757472,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "4wUziKFR8QA3bint"
+    },
+    {
+      "name": "Poppeteer",
+      "type": "move",
+      "img": "icons/magic/control/control-influence-puppet.webp",
+      "system": {
+        "name": "",
+        "description": "<p><em>Requires: Poppet</em></p>\n<p>When you <strong>kill someone using a poppet</strong>, you can animate their corpse to fight for you.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663561861409,
+        "modifiedTime": 1665449713307,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "mTgQ2zYMYNCiPWkU"
+    },
+    {
+      "name": "Potent Hex",
+      "type": "move",
+      "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>utter a curse upon a living creature</strong>, the effects of the curse are much more severe, and you or an ally takes +1 forward against the target.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663561976252,
+        "modifiedTime": 1665449714995,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "CVfWqpFqIlp8advR"
+    },
+    {
+      "name": "Rune-scribed Wand",
+      "type": "equipment",
+      "img": "icons/weapons/wands/wand-carved-stone-shard.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 3,
+        "tags": "[{\"value\":\"near\"},{\"value\":\"arcane\"}]",
+        "tagsString": "near, arcane",
+        "magic": true,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485058405,
+        "modifiedTime": 1665449680916,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "cCdbioUkJ2uXgJuQ"
+    },
+    {
+      "name": "Sack of Rune Stones",
+      "type": "equipment",
+      "img": "icons/containers/bags/coinpouch-leather-grey.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_0fwdmgiendj"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663486260056,
+        "modifiedTime": 1665449636959,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "JUE94sgeyY5fszRG"
+    },
+    {
+      "name": "Skinchanger",
+      "type": "move",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you spend a few minutes changing your shape into that of an animal, you gain the features and limitations of it until sunrise or you change back.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663559517607,
+        "modifiedTime": 1665449759202,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1zgEWnyVaqxr0u8E"
+    },
+    {
+      "name": "Soul Power",
+      "type": "move",
+      "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you<strong> kill a creature</strong>, take +1 forward to use <strong>hex</strong>. If you<strong> sacrifice one or more intelligent creatures when using thaumaturgy</strong>, choose two:</p>\n<ul>\n<li>It will require less.</li>\n<li>It will not take as long.</li>\n<li>The effects will last longer, or be more powerful than expected.</li>\n<li>You can ignore one of the restrictions.</li>\n</ul>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Blood Magic",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663562059089,
+        "modifiedTime": 1665449718468,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "TkbnEAs27XKXMWXR"
+    },
+    {
+      "name": "Stang Capped with Antler",
+      "type": "equipment",
+      "img": "icons/creatures/mammals/deer-antlers-blue.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"close\"},{\"value\":\"two-handed\"},{\"value\":\"1 piercing\"}]",
+        "tagsString": "close, two-handed, 1 piercing",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485142836,
+        "modifiedTime": 1665449672918,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "DGPbpV9G68JrJG7c"
+    },
+    {
+      "name": "Thaumaturgy",
+      "type": "move",
+      "img": "icons/skills/trades/academics-book-study-runes.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you flip through your spellbook for magical effect or how to craft a magical item, tell the GM what you want to do or create, and the GM will tell you:</p>\n<ul>\n<li>What you need</li>\n<li>How long it will take</li>\n<li>How long the spell or effects of the magic item will last</li>\n<li>Any restrictions or limitations, such as a specific time or place, if it must be used or activated in a specific way, what can destroy or disrupt it, etc...</li>\n</ul>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.jUn7Q3e0Pok4msAj"
+        },
+        "cf": {
+          "id": "temp_la9ysbss69"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663528598604,
+        "modifiedTime": 1665533521561,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "f1omCSNrvwBdxBHU"
+    },
+    {
+      "name": "The Witch",
+      "type": "class",
+      "img": "icons/weapons/staves/broom-yellow-purple.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "races": {
+          "0": {
+            "label": "Coven",
+            "description": "You are a member of a group of witches who are generally willing to help each other (or at least not hurt you). When you parley with a member of your coven for aid, take +1 forward. When you use thaumaturgy with the support of one or more coven members, the GM will choose to reduce or eliminate one of the requirements."
+          },
+          "1": {
+            "label": "Deal with the Devil",
+            "description": "You gained your power at a price. Who - or what - was it? What does it require in exchange? Either to continue your tutelage or keep tabs on you, you start with a familiar."
+          },
+          "2": {
+            "label": "Tutelage",
+            "description": "You are the child of another witch or studied closely under one, and benefit greatly from your parent's experience. When you examine a potion for a few minutes, you know exactly what it will do, and when you spout lore about herbs and plants take +1."
+          },
+          "3": {
+            "label": "???",
+            "description": ""
+          }
+        },
+        "alignments": {
+          "0": {
+            "label": "Good",
+            "description": "Use your magic to help someone."
+          },
+          "1": {
+            "label": "Evil",
+            "description": "Use your magic to inflict lasting harm on someone."
+          },
+          "2": {
+            "label": "Chaotic",
+            "description": "Sow chaos and panic."
+          },
+          "3": {
+            "label": "???",
+            "description": ""
+          }
+        },
+        "equipment": {
+          "0": {
+            "label": "Choose your weapon:",
+            "mode": "radio",
+            "items": [
+              "MoxvnhIEr7OVkaiG",
+              "ZL2iLIhonSajf0Ik",
+              "cCdbioUkJ2uXgJuQ",
+              "DGPbpV9G68JrJG7c"
+            ]
+          },
+          "1": {
+            "label": "Choose two:",
+            "mode": "checkbox",
+            "items": [
+              "ZbQQw1Is1jIFCzaA",
+              "9Y0jOqLSLuwyGei6",
+              "IQIZzQF5rYNpg0P1",
+              "0uwoxVIUYBs7GSFY"
+            ]
+          },
+          "2": {
+            "label": "Starting Gear (Choose All):",
+            "mode": "checkbox",
+            "items": [
+              "6JcOoZ8CNqYxLgyQ",
+              "QW0eYITU3QNUupUq",
+              "JUE94sgeyY5fszRG",
+              "M81hFVL46G7CJwVC"
+            ]
+          }
+        },
+        "hp": 6,
+        "load": 8,
+        "damage": "d4"
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_5cu3m5dt829"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663484585452,
+        "modifiedTime": 1665449466127,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "tldODE2wkBTaoHKk"
+    },
+    {
+      "name": "Warding Pentacle",
+      "type": "equipment",
+      "img": "icons/equipment/neck/amulet-carved-stone-purple.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": "[{\"value\":\"1 armor\"},{\"value\":\"worn\"}]",
+        "tagsString": "1 armor, worn",
+        "magic": false,
+        "itemType": "armor",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_smsmqgo6jtb"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663485367328,
+        "modifiedTime": 1665449671201,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "IQIZzQF5rYNpg0P1"
+    },
+    {
+      "name": "Weather-Worker",
+      "type": "move",
+      "img": "icons/magic/air/weather-clouds-sunlight.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You spend a few minutes stirring up a storm.</p>\n<p>Roll CHA to gain storm holds.</p>",
+        "choices": "<ul>\n<li>Deal your damage to a nearby creature.</li>\n<li>Negate damage from a ranged attack.</li>\n<li>Hinder an enemy - you or an ally takes +1 forward against it.</li>\n</ul>",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>Hold 1 storm in addition to what ever else the GM tells you.</p>"
+          },
+          "partial": {
+            "value": "<p>Hold 2 storm.</p>"
+          },
+          "success": {
+            "value": "<p>Hold 3 storm.</p>"
+          }
+        },
+        "class": "The Witch",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.KXc4naSjKHnw7D0I"
+        },
+        "cf": {
+          "id": "temp_xgxvfl8ddg"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663559878962,
+        "modifiedTime": 1665449760822,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "AMksNNBuR7mGiYCU"
+    },
+    {
+      "name": "You'll Feel a Little Prick",
+      "type": "move",
+      "img": "icons/tools/hand/needle-grey.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>make camp</strong>, one creature takes +1 forward the following day. In addition that creature either regains +2d6 hit points or removes a debility.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Witch",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Alternative Medicine",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cbzi5c61rm9"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663562285535,
+        "modifiedTime": 1665449720215,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "3zOKuxQJIOhDZUCW"
+    }
+  ],
+  "source": {
+    "world": "pirates",
+    "system": "dungeonworld",
+    "version": {
+      "core": "10.287",
+      "system": "1.6.2"
+    }
+  }
+}
