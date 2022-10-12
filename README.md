@@ -13,3 +13,10 @@ Classes Available:
 On The Way:
 * The Swashbuckler
 * The Apothecary
+
+REQUIRED FVTT MODULES
+* Mana's Compendium Importer
+
+SUGGESTED FVTT MODULES
+* Compendium Folders
+* * libWrapper
