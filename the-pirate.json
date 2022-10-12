@@ -1,0 +1,1963 @@
+{
+  "package": "world.the-pirate",
+  "metadata": {
+    "label": "The Pirate",
+    "type": "Item",
+    "name": "the-pirate",
+    "path": "packs/the-pirate.db",
+    "system": "dungeonworld",
+    "private": false,
+    "flags": {},
+    "id": "world.the-pirate",
+    "packageType": "world",
+    "packageName": "pirates"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "The Pirate",
+      "type": "class",
+      "img": "icons/equipment/head/hat-tricorn-pirate-black.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "races": {
+          "0": {
+            "label": "Criminal",
+            "description": "You joined up with a pirate crew to evade the law. Take+ 1 ongoing when checking for outstanding warrants, and on a 7 + you can take+ 1 ongoing when intimidating people in that steading."
+          },
+          "1": {
+            "label": "Recruit",
+            "description": "You became a pirate willingly after hearing all the stories about treasure and adventure. You start with X Marks The Spot."
+          },
+          "2": {
+            "label": "Shanghaied",
+            "description": "When your town was pillaged you were captured at a young age and forced to work. Over many years and fights you managed to earn the respect of your shipmates. When you are outnumbered, gain + 1 armor. "
+          }
+        },
+        "alignments": {
+          "0": {
+            "label": "Neutral",
+            "description": "Drink and philander to excess."
+          },
+          "1": {
+            "label": "Chaotic",
+            "description": "Throw your enemies' plans into disarray."
+          },
+          "2": {
+            "label": "Evil",
+            "description": "Use threats and violence to make others do what you want."
+          }
+        },
+        "equipment": {
+          "0": {
+            "label": "Choose ALL",
+            "mode": "checkbox",
+            "items": [
+              "6JcOoZ8CNqYxLgyQ",
+              "oGiXIqNQbukIjf06",
+              "ux10pVbaHmGnPe3u"
+            ]
+          },
+          "1": {
+            "label": "Choose your Arms",
+            "mode": "radio",
+            "items": [
+              "TJ5kn5ewO47RhbkT",
+              "d1dbvIjHMhkFbXR5",
+              "W3EluXPVbQxZ06wy"
+            ]
+          },
+          "2": {
+            "label": "Choose a Ranged Weapon",
+            "mode": "radio",
+            "items": [
+              "S0L8zmCAarK2f0Hh",
+              "Dzjl2SmqzLifnoWi",
+              "onun19OKLyZ4fP9X"
+            ]
+          },
+          "3": {
+            "label": "Gear",
+            "mode": "radio",
+            "items": [
+              "YwHV7WYzTPSAOorl",
+              "CMhNmAwhLVZk9lfq",
+              "0FWsoT21k5RRYXTO",
+              "9KDjUsAUAM3hjFnd",
+              "G5lcnrZkbtvBGlUt"
+            ]
+          }
+        },
+        "hp": 8,
+        "load": 9,
+        "damage": "d8"
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_q1v3y83u3v",
+          "path": "The Pirate",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665280468988,
+        "modifiedTime": 1665540878834,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "g8JJHjola2zKcd9G"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_q1v3y83u3v",
+          "path": "The Pirate",
+          "color": "#000000",
+          "name": "The Pirate",
+          "children": [
+            "temp_3qljnrqdrao",
+            "temp_dnnamls48v",
+            "temp_cwpb7utczu8",
+            "temp_so74tro5tkh",
+            "temp_z4nch287y9h"
+          ],
+          "folderPath": [],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "g8JJHjola2zKcd9G"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540878884,
+        "modifiedTime": 1665540881735,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "uVtT2zIINBczEnsR"
+    },
+    {
+      "name": "A Pirate's Life For Me",
+      "type": "move",
+      "img": "icons/skills/social/diplomacy-handshake-gray.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>recruit</strong>, take + 1 if the steading has the poor, lawless, or growing tags.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665438593350,
+        "modifiedTime": 1665540879066,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "BlSmiRBncYf2up2d"
+    },
+    {
+      "name": "Buccaneer",
+      "type": "move",
+      "img": "icons/sundries/flags/banner-flag-pirate.webp",
+      "system": {
+        "name": "",
+        "description": "<p>As long as <strong>you are also in the thick of it</strong>, hirelings in your command have +1 Loyalty.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665438667776,
+        "modifiedTime": 1665540879118,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "v1kF0QRUb7Hzm1xq"
+    },
+    {
+      "name": "En Garde",
+      "type": "move",
+      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>Hack and Slash</strong>, take +1 armor forward against your target.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665439638430,
+        "modifiedTime": 1665540879165,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "ZPr5C7PxjQZliHDH"
+    },
+    {
+      "name": "From Hell's Heart...",
+      "type": "move",
+      "img": "icons/skills/melee/strike-sword-dagger-runes-gray.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>deal damage to aquatic foes</strong>, deal +1d6 damage.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665439716681,
+        "modifiedTime": 1665540879211,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "NzQ1K9UjEyfuWyTE"
+    },
+    {
+      "name": "I Spy",
+      "type": "move",
+      "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>Discern Realities from above or using a spyglass</strong>, you can ask the<br>GM an additional question, and on a miss you can still ask one.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665439790737,
+        "modifiedTime": 1665540879258,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "HqMsV9fxL3uFNnyq"
+    },
+    {
+      "name": "Mind Your Surroundings",
+      "type": "move",
+      "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>scan the environment for an advantage</strong>, on a 12+ you hold 3 mayhem.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665439900114,
+        "modifiedTime": 1665540879313,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "o6F65F38o8nWKFnV"
+    },
+    {
+      "name": "Sea Savvy",
+      "type": "move",
+      "img": "icons/sundries/documents/blueprint-anchor.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>Spout Lore about the deep blue sea and its inhabitants</strong>, take + 1<br>forward when acting on the answers.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665440075169,
+        "modifiedTime": 1665540879359,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "fbIMfEln4pyy6Ltd"
+    },
+    {
+      "name": "Shipmates",
+      "type": "move",
+      "img": "icons/environment/people/group.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>aid an ally</strong>, on a 7+ you also take +1 forward.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665440303413,
+        "modifiedTime": 1665540879406,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "jTSF81RrSrJqNOZC"
+    },
+    {
+      "name": "Shoot and Stab",
+      "type": "move",
+      "img": "icons/skills/ranged/cannon-barrel-firing-white-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>volley with a firearm</strong>, take +1 forward to Hack and Slash against<br>the same target.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665440384274,
+        "modifiedTime": 1665540879454,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "qebHXEjJmvzMrtUC"
+    },
+    {
+      "name": "Swashbuckler",
+      "type": "move",
+      "img": "icons/skills/melee/strike-sword-dagger-runes-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>wield a weapon with the precise tag</strong>, it also gains 2 piercing.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665440475722,
+        "modifiedTime": 1665540879500,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Hi069CvQRYPYpwF5"
+    },
+    {
+      "name": "X Marks the Spot",
+      "type": "move",
+      "img": "icons/tools/navigation/map-marked-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>Discern Realities</strong>, you can always ask where treasure is hidden.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665440581133,
+        "modifiedTime": 1665540879547,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "YwnrP1FrVmtBOgro"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_so74tro5tkh",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L2-l5",
+          "color": "#000000",
+          "name": "Advanced Moves L2-l5",
+          "children": [],
+          "folderPath": [
+            "temp_q1v3y83u3v"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "BlSmiRBncYf2up2d",
+            "v1kF0QRUb7Hzm1xq",
+            "ZPr5C7PxjQZliHDH",
+            "NzQ1K9UjEyfuWyTE",
+            "HqMsV9fxL3uFNnyq",
+            "o6F65F38o8nWKFnV",
+            "fbIMfEln4pyy6Ltd",
+            "jTSF81RrSrJqNOZC",
+            "qebHXEjJmvzMrtUC",
+            "Hi069CvQRYPYpwF5",
+            "YwnrP1FrVmtBOgro"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540879592,
+        "modifiedTime": 1665540879735,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Voru3OxI2DWfxBXo"
+    },
+    {
+      "name": "...I Stab at Thee!",
+      "type": "move",
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p><em>Replaces: From Hell's Heart...</em></p>\n<p>When you<strong> deal damage to aquatic foes</strong>, deal +2d6 damage.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "From Hell's Heart...",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665441958877,
+        "modifiedTime": 1665540879784,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "08YWHWXGUIL1RPzB"
+    },
+    {
+      "name": "An Eye For Mayhem",
+      "type": "move",
+      "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>scan the environment for an advantage</strong>, you hold 1 additional mayhem, and on a miss you still hold 1 mayhem.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "Mind Your Surroundings",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442090326,
+        "modifiedTime": 1665540879832,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "31rQuFBK1VUf4ZFG"
+    },
+    {
+      "name": "Captain",
+      "type": "move",
+      "img": "icons/equipment/head/hat-cocked-purple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you<strong> tell someone what to do</strong>, they take +1 forward if they listen.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442459168,
+        "modifiedTime": 1665540879881,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "xxXAIbJ9SaRsFFS8"
+    },
+    {
+      "name": "Night Raider",
+      "type": "move",
+      "img": "icons/skills/movement/ball-spinning-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You are accustomed to the night: you can see in the dark, and when you <strong>Defy</strong><br><strong>Danger by trying to avoid being spotted or getting out of the way while in</strong><br><strong>the shadows</strong>, a miss counts as a 7-9.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442536527,
+        "modifiedTime": 1665540879933,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1vYoyrZ05HqTaExj"
+    },
+    {
+      "name": "Old Salt",
+      "type": "move",
+      "img": "icons/commodities/materials/bowl-powder-grey.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>undertake a perilous journey across the sea</strong>, whatever job you take you succeed as if you rolled a 10+.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442654809,
+        "modifiedTime": 1665540879982,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "7q9KVzioA1rBDrkA"
+    },
+    {
+      "name": "Point Blank",
+      "type": "move",
+      "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you<strong> shoot someone right next to you</strong>, the attack ignores armor and deals +1d6 damage.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442803355,
+        "modifiedTime": 1665540880028,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "GE8bjkUJgE0sSmZR"
+    },
+    {
+      "name": "Powder Monkey",
+      "type": "move",
+      "img": "icons/containers/ammunition/powder-horn-simple.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Guns no longer have the unreliable tag, grenades no longer have the dangerous tag, and you deal +1 damage when using them.&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665442973606,
+        "modifiedTime": 1665540880076,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "kgQsF6f8btUr5cwh"
+    },
+    {
+      "name": "Riposte",
+      "type": "move",
+      "img": "icons/skills/melee/swords-parry-block-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>Defy Danger against a melee attack and roll a 12+</strong>, deal your damage to the attacker.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665443090417,
+        "modifiedTime": 1665540880122,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "GqMgUr0TwE7qJoPr"
+    },
+    {
+      "name": "Scurvy Dog",
+      "type": "move",
+      "img": "icons/magic/life/heart-cross-strong-flame-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You recover from the sick debility in just one day, and when you<strong> try to resist</strong><br><strong>or recover from disease</strong>, take +1 forward.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665443154043,
+        "modifiedTime": 1665540880177,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "LmtsRijrw6XshYGf"
+    },
+    {
+      "name": "Take Stock",
+      "type": "move",
+      "img": "icons/environment/settlement/tent-flag.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>make camp and pool everyone's resources together</strong>, roll+INT.</p>",
+        "choices": "<ul>\n<li>1d6 dungeon rations</li>\n<li>1d4 bandages</li>\n<li>1 use of adventuring gear</li>\n</ul>",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>You did not have as much as you thought: choose 1 and lose that amount.</p>"
+          },
+          "partial": {
+            "value": "<p>Gain 1</p>"
+          },
+          "success": {
+            "value": "<p>Gain 2</p>"
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "INT",
+        "rollMod": 0,
+        "requiresLevel": 6,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665443232407,
+        "modifiedTime": 1665540880227,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "exfIGq7pU0aamsXP"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_dnnamls48v",
+          "path": "The Pirate#/CF_SEP/Advanced Moves L6-L10",
+          "color": "#000000",
+          "name": "Advanced Moves L6-L10",
+          "children": [],
+          "folderPath": [
+            "temp_q1v3y83u3v"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "08YWHWXGUIL1RPzB",
+            "31rQuFBK1VUf4ZFG",
+            "xxXAIbJ9SaRsFFS8",
+            "1vYoyrZ05HqTaExj",
+            "7q9KVzioA1rBDrkA",
+            "GE8bjkUJgE0sSmZR",
+            "kgQsF6f8btUr5cwh",
+            "GqMgUr0TwE7qJoPr",
+            "LmtsRijrw6XshYGf",
+            "exfIGq7pU0aamsXP"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540880272,
+        "modifiedTime": 1665540880410,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "8GRuGUA3RGQBPs3l"
+    },
+    {
+      "name": "10 Coins",
+      "type": "equipment",
+      "img": "icons/commodities/currency/coins-assorted-mix-copper.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Add 10 coins to your character.</p>",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_z4nch287y9h",
+          "path": "The Pirate#/CF_SEP/Starting Gear",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665438057348,
+        "modifiedTime": 1665540880458,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "L0p8X11qLBUO430B"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_z4nch287y9h",
+          "path": "The Pirate#/CF_SEP/Starting Gear",
+          "color": "#000000",
+          "name": "Starting Gear",
+          "children": [],
+          "folderPath": [
+            "temp_q1v3y83u3v"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "L0p8X11qLBUO430B"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540880509,
+        "modifiedTime": 1665540880665,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "nxODUNqcLFUvNJMZ"
+    },
+    {
+      "name": "10 coins and 2 flasks of grog",
+      "type": "equipment",
+      "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Add 10 coins to your character sheet.</p>",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 2,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665437367352,
+        "modifiedTime": 1665540880761,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "pndcmYHi7ipDYZGF"
+    },
+    {
+      "name": "Cutlass",
+      "type": "equipment",
+      "img": "items/cutlass-steel-black.png",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"close\"},{\"value\":\"precise\"}]",
+        "tagsString": "close, precise",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.hydjHczc8OBs4KNr"
+        },
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663567434988,
+        "modifiedTime": 1665540880811,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1qcLLkUdtYR0tzvK"
+    },
+    {
+      "name": "Flintlock Pistol",
+      "type": "equipment",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"1 piercing\"},{\"value\":\"reload\"}]",
+        "tagsString": "near, loud, 1 piercing, reload",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.1CtPYXNGBgwCOZ1t"
+        },
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663566651202,
+        "modifiedTime": 1665540880861,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "qi2G1STQTvE3P499"
+    },
+    {
+      "name": "Grenade",
+      "type": "equipment",
+      "img": "icons/weapons/thrown/bomb-fuse-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>1d10 damage.</p>",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 1,
+        "tags": "[{\"value\":\"dangerous\"},{\"value\":\"thrown\"},{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"2 piercing\"},{\"value\":\"close\"}]",
+        "tagsString": "dangerous, thrown, near, loud, 2 piercing, close",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.kjjJGW2Xa6ZKc6k0"
+        },
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433816909,
+        "modifiedTime": 1665540880920,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "JLaXsyJrzZZClEPw"
+    },
+    {
+      "name": "Hook",
+      "type": "equipment",
+      "img": "icons/tools/fishing/hook-curved-barbed-steel-white.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": "[{\"value\":\"hand\"}]",
+        "tagsString": "hand",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.CkcTCUJa1j05EEQ1"
+        },
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663568540099,
+        "modifiedTime": 1665540880981,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "KMm7Wyb3FYMXggW5"
+    },
+    {
+      "name": "Tattered Treasure Map & Compass",
+      "type": "equipment",
+      "img": "icons/tools/navigation/map-marked-green.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665282334632,
+        "modifiedTime": 1665540881038,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "TbT4KHzPRHkvL6Pb"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_3qljnrqdrao",
+          "path": "The Pirate#/CF_SEP/Starting Gear Choices",
+          "color": "#000000",
+          "name": "Starting Gear Choices",
+          "children": [],
+          "folderPath": [
+            "temp_q1v3y83u3v"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "pndcmYHi7ipDYZGF",
+            "1qcLLkUdtYR0tzvK",
+            "qi2G1STQTvE3P499",
+            "JLaXsyJrzZZClEPw",
+            "KMm7Wyb3FYMXggW5",
+            "TbT4KHzPRHkvL6Pb"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540881101,
+        "modifiedTime": 1665540881276,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "4Ps5koL1AmpgP2zc"
+    },
+    {
+      "name": "Fight Like A Pirate",
+      "type": "move",
+      "img": "icons/weapons/swords/scimitar-guard-brown.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you scan the environment for an advantate, roll +WIS.</p>",
+        "choices": "<p>Spend 1 maheml and tell the GM how you use the environment to:</p>\n<ul>\n<li>Move to a nearby location, or maneuver an enemy to a nearby location.</li>\n<li>Find a weapon with the hand and near tags.</li>\n<li>Distract or impede your foe - you or an ally takes +1 forward against them.</li>\n<li>Take something from the target, or cause it to drop something.</li>\n</ul>",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>Hold 1 <strong>Mayhem</strong></p>"
+          },
+          "success": {
+            "value": "<p>Hold 2&nbsp;<strong>Mayhem</strong></p>"
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "WIS",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665283148899,
+        "modifiedTime": 1665540881327,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "kZQp25ybcKMfvuyv"
+    },
+    {
+      "name": "Pillage & Plunder",
+      "type": "move",
+      "img": "icons/commodities/currency/coins-plain-pouch-gold.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you loot a monster, you can increase the result of the treasure roll by 1.&nbsp; If you find coins, increase the amount by 1d8.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665283543667,
+        "modifiedTime": 1665540881375,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "6VoRwLBJGzQDmWUg"
+    },
+    {
+      "name": "Sea Legs",
+      "type": "move",
+      "img": "icons/skills/trades/profession-sailing-ship.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you defy danger while fighting on a rocking ship, rigging, or any unsteady surface, take +1 forward.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665283484882,
+        "modifiedTime": 1665540881436,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "bYVTE8I91FoEcG5z"
+    },
+    {
+      "name": "Treasure Map",
+      "type": "move",
+      "img": "icons/tools/navigation/map-marked-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you arrive at an island you have not been to in a while, the GM will either tell you what you stashed there or what treasure is rumored to be hidden there.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665283650478,
+        "modifiedTime": 1665540881488,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "feXIxJ1r7hq1sQhN"
+    },
+    {
+      "name": "Yo Ho Ho",
+      "type": "move",
+      "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you <strong>break out the rum, demon water, kill-devil, or whatever you want to call it</strong>, you can carouse without spending 100 coins (you can still spend 100 coins to gain +1 for each 100 coins spent).&nbsp; In addition you can take +1 forward, but if you do, things always get out of hand.&nbsp; When you <strong>carouse</strong>, the following morning take +1 forward.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Pirate",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665283755795,
+        "modifiedTime": 1665540881542,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Gfhh4kmbw9bOCuqm"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_cwpb7utczu8",
+          "path": "The Pirate#/CF_SEP/Starting Moves",
+          "color": "#000000",
+          "name": "Starting Moves",
+          "children": [],
+          "folderPath": [
+            "temp_q1v3y83u3v"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "kZQp25ybcKMfvuyv",
+            "6VoRwLBJGzQDmWUg",
+            "bYVTE8I91FoEcG5z",
+            "feXIxJ1r7hq1sQhN",
+            "Gfhh4kmbw9bOCuqm"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540881595,
+        "modifiedTime": 1665540881735,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "QtLHXr7jEwtHE0F2"
+    }
+  ],
+  "source": {
+    "world": "pirates",
+    "system": "dungeonworld",
+    "version": {
+      "core": "10.287",
+      "system": "1.6.2"
+    }
+  }
+}
