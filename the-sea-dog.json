@@ -1,0 +1,1901 @@
+{
+  "package": "world.the-sea-dog",
+  "metadata": {
+    "label": "The Sea Dog",
+    "type": "Item",
+    "name": "the-sea-dog",
+    "path": "packs/the-sea-dog.db",
+    "system": "dungeonworld",
+    "private": false,
+    "flags": {},
+    "id": "world.the-sea-dog",
+    "packageType": "world",
+    "packageName": "pirates"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "The Sea Dog",
+      "type": "class",
+      "img": "icons/tools/nautical/anchor-blue-orange.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "races": {
+          "0": {
+            "label": "Adventure",
+            "description": "Mark XP when you have the most amazing story to tell."
+          },
+          "1": {
+            "label": "Fame",
+            "description": "Mark XP when other have the most amazing story to tell about you."
+          },
+          "2": {
+            "label": "Fortune",
+            "description": "Mark XP when you find amazing treasure."
+          }
+        },
+        "alignments": {
+          "0": {
+            "label": "Lawful",
+            "description": "In the King's Navy. For King and Country!"
+          },
+          "1": {
+            "label": "Good",
+            "description": "Rebel, Merchant. Fight for freedom. Honest commerce."
+          },
+          "2": {
+            "label": "Neutral",
+            "description": "Privateer. Show me the money!"
+          },
+          "3": {
+            "label": "Evil",
+            "description": "Buccaneer, Pirate. Make a pact with the devil."
+          }
+        },
+        "equipment": {
+          "0": {
+            "label": "Starting Items (Choose All)",
+            "mode": "checkbox",
+            "items": [
+              "6JcOoZ8CNqYxLgyQ",
+              "RE9DjKUWlqNHAH6r"
+            ]
+          },
+          "1": {
+            "label": "Weapons (Choose 3)",
+            "mode": "checkbox",
+            "items": [
+              "nMag6sXXRqc6SC4Q",
+              "W3EluXPVbQxZ06wy",
+              "4NMxhicMdmcob49v",
+              "S0L8zmCAarK2f0Hh",
+              "717BxdHc6kW3eZ0F",
+              "ZywiClR9Kiu8vwc4",
+              "d1dbvIjHMhkFbXR5"
+            ]
+          }
+        },
+        "hp": 8,
+        "load": 10,
+        "damage": "d8"
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_qrwo85op3k9",
+          "path": "The Sea Dog",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663564427375,
+        "modifiedTime": 1665540000042,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "8b4gmJKptTz3r6Gr"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_qrwo85op3k9",
+          "path": "The Sea Dog",
+          "color": "#000000",
+          "name": "The Sea Dog",
+          "children": [
+            "temp_sjnqkx4lxi",
+            "temp_luwbq96aqf9",
+            "temp_nceyq3qboq",
+            "temp_oax2ovw935"
+          ],
+          "folderPath": [],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "8b4gmJKptTz3r6Gr"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540000091,
+        "modifiedTime": 1665540002766,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "pkqt6zU0LVNnCiVb"
+    },
+    {
+      "name": "Animal Companion",
+      "type": "move",
+      "img": "AnimalCompanion.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You have an almost supernatural connection with a loyal parrot or monkey. You can&rsquo;t talk to it per se but it always acts as you wish it to.</p>\n<p><strong>When your parrot distracts your enemy during a brawl</strong> and you roll 12+ on Hack<br>and Slash, do +1d6 damage.</p>\n<p><strong>When your monkey picks a pocket or steals a small object</strong>, Roll+CHA</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>He gets the item but the GM also chooses one.</p>\n<ul>\n<li>He draws attention to you and puts you in a spot.</li>\n<li>He gets the wrong item, although it is not totally useless.</li>\n<li>He gets chased and disappears for the rest of&nbsp; the day.</li>\n</ul>"
+          },
+          "success": {
+            "value": "<p>He gets away with it, but hides for a while. You can get the object a bit later.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665427603536,
+        "modifiedTime": 1665540000282,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "thd4zhoaXvzIwDhp"
+    },
+    {
+      "name": "Captain",
+      "type": "move",
+      "img": "icons/skills/trades/profession-sailing-ship.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Requires Master Navigator and Helmsman.</p>\n<p>Your are qualified to be a ship&rsquo;s captain.</p>\n<p>Your crew takes +1 on Boarding rolls.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Master Navigator, Helmsman",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665431838606,
+        "modifiedTime": 1665540000329,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "gWKGnoERb84qt2t9"
+    },
+    {
+      "name": "Disarm",
+      "type": "move",
+      "img": "icons/skills/melee/swords-triple-orange.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you roll 10+ on hack and slash with a precise weapon</strong>, you disarm your opponent (If appropriate in the fiction)</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Duelist's Parry",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665423020554,
+        "modifiedTime": 1665540000379,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "TjsUmFxa0FnnIKoX"
+    },
+    {
+      "name": "Duelist's Parry",
+      "type": "move",
+      "img": "icons/skills/melee/swords-parry-block-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you hack and slash with a precise weapon</strong>, you take +1 armor forward.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665423207563,
+        "modifiedTime": 1665540000429,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Rf4yb8tUfbFlBo81"
+    },
+    {
+      "name": "Fear the Dread Pirate Roberts!",
+      "type": "move",
+      "img": "icons/skills/trades/profession-sailing-pirate.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you interact with NPC&rsquo;s</strong> your fearsome reputation works for you.</p>\n<ul>\n<li>At 3rd to 5th level: Roll +3 instead of &nbsp;+Cha.</li>\n<li>At 6th level or higher: Roll +4 instead of &nbsp;+Cha.</li>\n</ul>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433334313,
+        "modifiedTime": 1665540000477,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "m4aIlx2YO48uHfSc"
+    },
+    {
+      "name": "Fish Breath",
+      "type": "move",
+      "img": "icons/creatures/fish/fish-shark-swimming.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You can hold your breath for up to 5 minutes.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433117305,
+        "modifiedTime": 1665540000527,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "JWuSoAH3LovE2qSo"
+    },
+    {
+      "name": "Gunner",
+      "type": "move",
+      "img": "icons/weapons/artillery/cannon-banded.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You are an expert at handling cannons.</p>\n<p>Your ship does +1d4 cannon damage.</p>\n<p>Your firearm does +1d4 damage.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Powder Monkey",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665426748956,
+        "modifiedTime": 1665540000578,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "BWNa8dbI42o0AWNy"
+    },
+    {
+      "name": "Helmsman",
+      "type": "move",
+      "img": "icons/tools/nautical/steering-wheel.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Your ship takes +1 Maneuver rolls.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665423314333,
+        "modifiedTime": 1665540000627,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "FbARryBPpC8xwO69"
+    },
+    {
+      "name": "Insult Fighting",
+      "type": "move",
+      "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you utter a grievous insult to an opponent intelligent enough to understand it, or his mother and</strong> the GM thinks your insult is funny, original or deserving of &nbsp;recognition, Roll+CHA.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>Your opponent makes the perfect comeback and takes +1d6 damage forward<br>against you.</p>"
+          },
+          "partial": {
+            "value": "<p>Take +1 and +1d4 damage forward to Hack and Slash against that opponent.</p>"
+          },
+          "success": {
+            "value": "<p>On 10+: Take +1 and +1d6 damage forward to Hack and Slash against that opponent.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665432850555,
+        "modifiedTime": 1665540000681,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "Q7gb5SBtjAAKh9fb"
+    },
+    {
+      "name": "It's All Legal, Sir!",
+      "type": "move",
+      "img": "icons/containers/boxes/crates-wooden-stacked.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you are asked to present identification, cargo manifests, shipping documents, import documents</strong> or any other official stuff, Roll+CHA.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>The GM chooses:</p>\n<ul>\n<li>You have to promise to present it within a day or so to the proper authorities.</li>\n<li>You have to pay a bribe.</li>\n</ul>"
+          },
+          "success": {
+            "value": "<p>You have some sort of paper you can flash and talk your way out of &nbsp;it.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433178015,
+        "modifiedTime": 1665540000729,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "8PmWcxf9CuQEhl9p"
+    },
+    {
+      "name": "Kraken's Ink Tatoos",
+      "type": "move",
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you are inked with Kraken&rsquo;s ink</strong>, and do not wear other armor, take +1 armor.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665429340918,
+        "modifiedTime": 1665540000779,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "1SJ4k5L3RPmJiOCD"
+    },
+    {
+      "name": "Lady Killer / Man Eater",
+      "type": "move",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you parley with someone who finds you attractive</strong>, take +1</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665432472116,
+        "modifiedTime": 1665540000830,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "yU2Ddngaxp6HvCun"
+    },
+    {
+      "name": "Master Gunner",
+      "type": "move",
+      "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Requires and <strong>replaces</strong> Gunner.</p>\n<p>Your ship does +1d6 cannon damage.</p>\n<p>Your firearm does +1d6 damage.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Gunner",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665426843294,
+        "modifiedTime": 1665540000879,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "RHV5ZS9obD5wSuWy"
+    },
+    {
+      "name": "Master Navigator",
+      "type": "move",
+      "img": "icons/tools/navigation/map-chart-tan.webp",
+      "system": {
+        "name": "",
+        "description": "<p>As long as you are at sea or can see the stars, you do not get lost.</p>\n<p>You can predict weather accurately 48 hours in advance.</p>\n<p>You can communicate with the soul of &nbsp;the sea and the wind. <strong>When you do it to follow a trail left behind by passing ships or large or mystical sea creatures,</strong> roll+Wis.</p>\n<p>&nbsp;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>You follow the ship or creature until there&rsquo;s a significant change in its direction or<br>mode of &nbsp;travel.</p>"
+          },
+          "success": {
+            "value": "<p>You follow the ship or creature until there&rsquo;s a significant change in its direction or<br>mode of &nbsp;travel, and choose 1:</p>\n<ul>\n<li>Gain a useful bit of &nbsp;information about your quarry, the GM will tell you what.</li>\n<li>Determine what caused the trail to end.</li>\n</ul>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "WIS",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Navigator",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665426926010,
+        "modifiedTime": 1665540000928,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "UED8HmQWiYW6wOx2"
+    },
+    {
+      "name": "Navigator",
+      "type": "move",
+      "img": "icons/tools/navigation/map-marked-green.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you go on a perilous sea journey</strong>, Roll+WIS.</p>\n<p><strong>When you Discern Realities while at sea</strong>, take +1.</p>\n<p>You can predict the weather accurately 24 hours in advance.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": "<p>You make excellent time and avoid foul weather.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "WIS",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665423472939,
+        "modifiedTime": 1665540000974,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "co1JzRySrtyVktRZ"
+    },
+    {
+      "name": "Powder Monkey",
+      "type": "move",
+      "img": "icons/containers/ammunition/shot-barrel.webp",
+      "system": {
+        "name": "",
+        "description": "<p>You are an expert at handling black powder. You can make black powder out of &nbsp;the raw material (charcoal, saltpetre and sulphur) and can use it to blow stuff &nbsp;up. You do not have to Defy Danger in order to use black powder.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665423371307,
+        "modifiedTime": 1665540001021,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "riGjq6xrvY4yp9pr"
+    },
+    {
+      "name": "Sniper",
+      "type": "move",
+      "img": "icons/weapons/guns/gun-topbarrel.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you use a musket at long range to volley</strong>, take +1</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665429232949,
+        "modifiedTime": 1665540001072,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "UfnDq6uIpUjIBtOu"
+    },
+    {
+      "name": "Tongues of Men and Mer",
+      "type": "move",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you encounter a new culture with a foreign tongue</strong>, Roll+INT.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>The GM will introduce interesting misunderstandings.</p>"
+          },
+          "success": {
+            "value": "<p>You can more or less communicate</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "INT",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433619771,
+        "modifiedTime": 1665540001122,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "lcwoMU8ruRqcfcO3"
+    },
+    {
+      "name": "Treasure Finder",
+      "type": "move",
+      "img": "icons/tools/navigation/map-marked-gold.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you find the treasure</strong> Roll+Wis</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>The treasure is 20% more than it would have been.</p>"
+          },
+          "success": {
+            "value": "<p>The treasure is 50% more than it would have been.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "WIS",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "Treasure Hunter",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665432347054,
+        "modifiedTime": 1665540001170,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "AZJfD0wNMGBiM8et"
+    },
+    {
+      "name": "Treasure Hunter",
+      "type": "move",
+      "img": "icons/tools/navigation/map-marked-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you Discern Realities while reading a map</strong>, you may ask &ldquo;Where is the treasure?&rdquo;</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>The answer is a bit more vague and cryptic.</p>"
+          },
+          "success": {
+            "value": "<p>The answer is more or less straight.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "WIS",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665432258262,
+        "modifiedTime": 1665540001217,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "0nemvgNxBEU9P70S"
+    },
+    {
+      "name": "Yo Ho Ho! And a Bottle of Rum",
+      "type": "move",
+      "img": "icons/consumables/drinks/alcohol-jug-spirits-brown.webp",
+      "system": {
+        "name": "",
+        "description": "<p><strong>When you fight while under the influence of rum,</strong></p>\n<ul>\n<li>Take +1 armor.</li>\n<li>Take +1 to all Cha rolls.</li>\n<li>Take &nbsp;-1 to all Wis rolls.</li>\n</ul>\n<p><strong>When you win a tavern brawl while inebriated</strong>, take +1 to the Carouse move.</p>",
+        "choices": "",
+        "moveType": "advanced",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 2,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665433500993,
+        "modifiedTime": 1665540001269,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "f7DoHLTNVe8r8uT0"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_sjnqkx4lxi",
+          "path": "The Sea Dog#/CF_SEP/Advanced Moves L2-L10",
+          "color": "#000000",
+          "name": "Advanced Moves L2-L10",
+          "children": [],
+          "folderPath": [
+            "temp_qrwo85op3k9"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "thd4zhoaXvzIwDhp",
+            "gWKGnoERb84qt2t9",
+            "TjsUmFxa0FnnIKoX",
+            "Rf4yb8tUfbFlBo81",
+            "m4aIlx2YO48uHfSc",
+            "JWuSoAH3LovE2qSo",
+            "BWNa8dbI42o0AWNy",
+            "FbARryBPpC8xwO69",
+            "Q7gb5SBtjAAKh9fb",
+            "8PmWcxf9CuQEhl9p",
+            "1SJ4k5L3RPmJiOCD",
+            "yU2Ddngaxp6HvCun",
+            "RHV5ZS9obD5wSuWy",
+            "UED8HmQWiYW6wOx2",
+            "co1JzRySrtyVktRZ",
+            "riGjq6xrvY4yp9pr",
+            "UfnDq6uIpUjIBtOu",
+            "lcwoMU8ruRqcfcO3",
+            "AZJfD0wNMGBiM8et",
+            "0nemvgNxBEU9P70S",
+            "f7DoHLTNVe8r8uT0"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540001316,
+        "modifiedTime": 1665540001457,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "0LXNJFUTHa0eSUXO"
+    },
+    {
+      "name": "Belay Pin",
+      "type": "equipment",
+      "img": "items/belaypin.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"hand\"}]",
+        "tagsString": "hand",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.ZywiClR9Kiu8vwc4"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663568459721,
+        "modifiedTime": 1665540001509,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "BtXBg1WsF5hZnCo0"
+    },
+    {
+      "name": "Blunderbus",
+      "type": "equipment",
+      "img": "icons/weapons/guns/gun-blunderbuss-steel.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 2,
+        "uses": 0,
+        "tags": "[{\"value\":\"+3 damage\"},{\"value\":\"two-handed\"},{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"1 piercing\"},{\"value\":\"messy\"},{\"value\":\"forceful\"},{\"value\":\"reload\"}]",
+        "tagsString": "+3 damage, two-handed, near, loud, 1 piercing, messy, forceful, reload",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.t3XcPvoQt3rmOFAv"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663566715046,
+        "modifiedTime": 1665540001560,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "X3mklUSP57AFm3TA"
+    },
+    {
+      "name": "Cutlass",
+      "type": "equipment",
+      "img": "items/cutlass-steel-black.png",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"close\"},{\"value\":\"precise\"}]",
+        "tagsString": "close, precise",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.eTFUzl0G6QYTFm88"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663567434988,
+        "modifiedTime": 1665540001616,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "7P4GJjfAUoyG3xmm"
+    },
+    {
+      "name": "Flintlock Pistol",
+      "type": "equipment",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 1,
+        "uses": 0,
+        "tags": "[{\"value\":\"near\"},{\"value\":\"loud\"},{\"value\":\"1 piercing\"},{\"value\":\"reload\"}]",
+        "tagsString": "near, loud, 1 piercing, reload",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.BqruLOqd2XLgndXV"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663566651202,
+        "modifiedTime": 1665540001672,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "6nSxpZrJI3hGbT7M"
+    },
+    {
+      "name": "Hook",
+      "type": "equipment",
+      "img": "icons/tools/fishing/hook-curved-barbed-steel-white.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 0,
+        "tags": "[{\"value\":\"hand\"}]",
+        "tagsString": "hand",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.bX11lm0Ki3MvJXvj"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663568540099,
+        "modifiedTime": 1665540001739,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "PWB3Tq5OJqcUyKBz"
+    },
+    {
+      "name": "Musket",
+      "type": "equipment",
+      "img": "icons/weapons/guns/rifle-brown.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 2,
+        "uses": 0,
+        "tags": "[{\"value\":\"two-handed\"},{\"value\":\"far\"},{\"value\":\"loud\"},{\"value\":\"2 piercing\"},{\"value\":\"reload\"}]",
+        "tagsString": "two-handed, far, loud, 2 piercing, reload",
+        "magic": false,
+        "itemType": "weapon",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.tLEpBkSEmMP8JWt3"
+        },
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663566824796,
+        "modifiedTime": 1665540001816,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "nel9Y4YKsY79Kaeo"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_luwbq96aqf9",
+          "path": "The Sea Dog#/CF_SEP/Starting Choice Items",
+          "color": "#000000",
+          "name": "Starting Choice Items",
+          "children": [],
+          "folderPath": [
+            "temp_qrwo85op3k9"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "BtXBg1WsF5hZnCo0",
+            "X3mklUSP57AFm3TA",
+            "7P4GJjfAUoyG3xmm",
+            "6nSxpZrJI3hGbT7M",
+            "PWB3Tq5OJqcUyKBz",
+            "nel9Y4YKsY79Kaeo"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540001874,
+        "modifiedTime": 1665540002051,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "4qupT2AfcOKVPaTv"
+    },
+    {
+      "name": "Powder Horn and Balls",
+      "type": "equipment",
+      "img": "icons/weapons/ammunition/shot-round-blue.webp",
+      "system": {
+        "name": "",
+        "description": "",
+        "class": null,
+        "quantity": 1,
+        "equipped": false,
+        "weight": 0,
+        "uses": 3,
+        "tags": [],
+        "tagsString": "",
+        "magic": false,
+        "itemType": "dungeongear",
+        "attributes": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Item.RE9DjKUWlqNHAH6r"
+        },
+        "cf": {
+          "id": "temp_oax2ovw935",
+          "path": "The Sea Dog#/CF_SEP/Starting Items",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663567222886,
+        "modifiedTime": 1665540002099,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "gsoeWJ6WIbkfMSJp"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_oax2ovw935",
+          "path": "The Sea Dog#/CF_SEP/Starting Items",
+          "color": "#000000",
+          "name": "Starting Items",
+          "children": [],
+          "folderPath": [
+            "temp_qrwo85op3k9"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "gsoeWJ6WIbkfMSJp"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540002154,
+        "modifiedTime": 1665540002308,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "aq8x7yyk1V5FyFUL"
+    },
+    {
+      "name": "Contacts in Every Port",
+      "type": "move",
+      "img": "icons/environment/settlement/lighthouse-rock-red.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you enter a port or town you have been before (your call) Roll+CHA.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": "<p>They make life complicated for you and your party.</p>"
+          },
+          "partial": {
+            "value": "<p>They are willing to help at a price.</p>"
+          },
+          "success": {
+            "value": "<p>You know someone who is willing to help you.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "CHA",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665277997020,
+        "modifiedTime": 1665540002365,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "twcVXFnRkcPJovIq"
+    },
+    {
+      "name": "Rigger",
+      "type": "move",
+      "img": "icons/tools/nautical/rope-line-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>Whatever you do with ropes, it is always successful if the fiction allows it.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665278368977,
+        "modifiedTime": 1665540002413,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "yLQ38lPYft45V1UW"
+    },
+    {
+      "name": "Swimmer",
+      "type": "move",
+      "img": "icons/tools/nautical/diving-helmet.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you defy danger in water, take +1.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665278192291,
+        "modifiedTime": 1665540002467,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "n0j3GHhbjXewmZor"
+    },
+    {
+      "name": "Swing from the Rigging",
+      "type": "move",
+      "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you perform a feat of &nbsp;acrobatics using the environment to your advantage. Describe what you do and roll+Dex</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": "<p>You sort of succeed but (GM chooses)</p>\n<ul>\n<li>You open yourself to attack</li>\n<li>You drop something important</li>\n<li>You take -1 forward as you land where you did not plan to.</li>\n</ul>"
+          },
+          "success": {
+            "value": "<p>You execute the maneuvre perfectly as planned and take 1+ forward.</p>"
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "DEX",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1663568761263,
+        "modifiedTime": 1665540002517,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "m9COU8tie0UBKGD9"
+    },
+    {
+      "name": "Two Handed Brawler",
+      "type": "move",
+      "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "system": {
+        "name": "",
+        "description": "<p>When you Hack and Slash with precise weapon in one hand and a pistol in the other, add your pistol's damage to your melee damage as long as you still have loaded pistols.</p>",
+        "choices": "",
+        "moveType": "starting",
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": "The Sea Dog",
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000"
+        }
+      },
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665278231731,
+        "modifiedTime": 1665540002565,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "hyFagS5avI5cXs89"
+    },
+    {
+      "name": "#[CF_tempEntity]",
+      "type": "move",
+      "flags": {
+        "cf": {
+          "id": "temp_nceyq3qboq",
+          "path": "The Sea Dog#/CF_SEP/Starting Moves",
+          "color": "#000000",
+          "name": "Starting Moves",
+          "children": [],
+          "folderPath": [
+            "temp_qrwo85op3k9"
+          ],
+          "fontColor": "#FFFFFF",
+          "icon": null,
+          "sorting": "a",
+          "contents": [
+            "twcVXFnRkcPJovIq",
+            "yLQ38lPYft45V1UW",
+            "n0j3GHhbjXewmZor",
+            "m9COU8tie0UBKGD9",
+            "hyFagS5avI5cXs89"
+          ],
+          "version": "2.5.3"
+        }
+      },
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "name": "",
+        "description": "",
+        "choices": "",
+        "moveType": null,
+        "rollFormula": "",
+        "moveResults": {
+          "failure": {
+            "value": ""
+          },
+          "partial": {
+            "value": ""
+          },
+          "success": {
+            "value": ""
+          }
+        },
+        "class": null,
+        "rollType": "",
+        "rollMod": 0,
+        "requiresLevel": 0,
+        "requiresMove": "",
+        "moveGroup": ""
+      },
+      "effects": [],
+      "_stats": {
+        "systemId": "dungeonworld",
+        "systemVersion": "1.6.2",
+        "coreVersion": "10.287",
+        "createdTime": 1665540002621,
+        "modifiedTime": 1665540002765,
+        "lastModifiedBy": "cxx7IimFxegb0hOR"
+      },
+      "_id": "AHz3uQ9bOn821g1R"
+    }
+  ],
+  "source": {
+    "world": "pirates",
+    "system": "dungeonworld",
+    "version": {
+      "core": "10.287",
+      "system": "1.6.2"
+    }
+  }
+}
